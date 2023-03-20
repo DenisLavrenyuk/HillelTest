@@ -1,2 +1,2 @@
 test
-new info 3 mac test
+new info 2 mac test
