@@ -1,2 +1,2 @@
 test
-new info 2 linux test
+new info 1 mac test
