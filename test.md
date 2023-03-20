@@ -1,2 +1,2 @@
 test
-new info 1 pc test
+new info 2 linux test
