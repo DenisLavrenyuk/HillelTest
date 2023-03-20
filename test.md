@@ -1,2 +1,2 @@
 test
-new info 2 windows test
+new info 3 mac test
