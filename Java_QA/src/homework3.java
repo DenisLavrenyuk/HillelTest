@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class homework1 {
+public class homework3 {
     public static void main(String[] args) {
         int m = 20;
         int sum = 0;
