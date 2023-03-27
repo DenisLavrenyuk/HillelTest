@@ -1,2 +1,2 @@
 new line 123
-second
+first second
