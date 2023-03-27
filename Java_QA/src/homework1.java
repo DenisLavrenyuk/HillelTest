@@ -11,6 +11,7 @@ public class homework1 {
             mass[t] = rand.nextInt(50);
         }
         System.out.println("length mass=" + mass.length);
+        System.out.print("Array: ");
         for (int t = 0; t < mass.length; t++) {
             System.out.print(mass[t] + " ");
         }
@@ -20,12 +21,12 @@ public class homework1 {
             }
         }
         System.out.println("");
-        System.out.println(sum);
-        System.out.println("");
+        System.out.println("Summa= " + sum);
+        System.out.print("Even and positive: ");
         for (int h = 0; h < mass.length; h++) {
             p=mass[h] % 2;
             if (p == 0 &&  mass[h] > 0 ) {
-                System.out.println(mass[h]);
+                System.out.print(mass[h] + " ");
             }
         }
 

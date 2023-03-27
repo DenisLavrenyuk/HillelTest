@@ -1,3 +1,5 @@
+package lesson4;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -50,6 +52,18 @@ public class lesson4 {
                 r++;
             } while (r<10);
         }
+        private static void printMassive(int[][] mass){
+                for (int t = 0; t < mass.length; t++) {
+        System.out.println("");
+        for (int n = 0; n < mass[t].length; n++) {
+            System.out.println(mass[t][n]);
+        }
+        }
     }
+    //private static void printMassive(int[] mass){
+      //  for (int t = 0; t < mass.length; t++) {
+        //    if (mass )}
+    }
+
 
 
