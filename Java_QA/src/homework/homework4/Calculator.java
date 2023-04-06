@@ -33,7 +33,7 @@ public class Calculator {
                     System.out.println(result);
                 }
                 else {
-                    System.out.println("ERROR / by zero");
+                    System.out.println("ERROR: / by zero");
                 }
                 break;
             case '%':
@@ -43,11 +43,11 @@ public class Calculator {
                     System.out.println(" %");
                 }
                 else {
-                    System.out.println("ERROR / by zero");
+                    System.out.println("ERROR: / by zero");
                 }
                 break;
             default:
-                System.out.println("ERROR / wrong command");
+                System.out.println("ERROR: wrong command");
                 System.exit(0);
                 break;
         }
