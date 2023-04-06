@@ -1,7 +1,12 @@
 package lesson5;
 
 public class CalcUtil {
-    public static int sum(int n, int m){
+    public static double sum(int n, double m) {
+
         return n+m;
+    }
+
+    public static double sub(int n, double m) {
+        return n-m;
     }
 }

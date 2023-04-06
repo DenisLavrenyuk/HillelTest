@@ -5,7 +5,7 @@
         public static void main(String[] args) {//start main method
             int n1 = 3, n2 = 2;
 
-            char symbol = '8';
+            char symbol = '/';
             if (symbol == '+') {
                 System.out.println(n1 + n2);
             }
