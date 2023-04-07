@@ -6,12 +6,12 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter first number");
-        double number1 = scanner.nextInt();
+        double number1 = scanner.nextDouble();
         double number2;
         double result = 0;
         char symbol;
         System.out.println("enter second number");
-        number2 = scanner.nextInt();
+        number2 = scanner.nextDouble();
         System.out.println("enter symbol of operation");
         symbol = scanner.next().charAt(0);
         switch (symbol) {
