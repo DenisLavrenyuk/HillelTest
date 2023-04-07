@@ -20,4 +20,7 @@ public class Cat extends Animal{
         super(vegetarian, eats, noOfLegs);
         this.color="orange";
     }
+
+    public Cat() {  //empty for test
+    }
 }

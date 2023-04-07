@@ -34,6 +34,7 @@ private int noOfLegs;
         this.eats = eats;
         this.noOfLegs = noOfLegs;
     }
-    public Animal() {
+    public Animal() {  //empty+default noOflegs for test
+        this.noOfLegs=7;
     }
 }
