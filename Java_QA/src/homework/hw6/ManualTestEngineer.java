@@ -14,7 +14,7 @@ public class ManualTestEngineer extends Employee{
     }
     @Override
     public String getPosition() {
-        return "Manual TestEngineer";
+        return "Manual Test Engineer";
     }
 
     @Override
