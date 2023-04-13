@@ -2,7 +2,7 @@ package homework;
 
 import java.util.Random;
 
-public class homework3 {
+public class hw3 {
     public static void main(String[] args) {
         int m = 20;
         int sum = 0;

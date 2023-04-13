@@ -1,4 +1,4 @@
-package homework.homework4;
+package homework.hw4;
 
 public class CalcUtils {
     public static double add(double a, double b) {
