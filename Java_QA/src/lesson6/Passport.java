@@ -1,25 +1,47 @@
 package lesson6;
 
 public class Passport {
-//    public String getString() {
-//        return string;}
+    public String getString() {
+        return string;
+    }
 
+    private static String string = "Human";
+
+    public static void print() {
+        System.out.println("hello Pasport");
+    }
+
+    public void setString(String string) {
+        Passport.string = string;
+    }
 
     private String name, family;
     private int age;
 
     public void setAge(int age) {
-        if (age>14 && age<90){
-        this.age = age;}
-        else {
-            this.age=14;
+        if (age > 14 && age < 90) {
+            this.age = age;
+        } else {
+            this.age = 14;
         }
+    }
+
+    public String getFamily() {
+        return family;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getSex() {
+        return sex;
     }
 
     private String sex;
 
-    public String getFamily() {
-        return family;
+    public String getName() {
+        return name;
     }
 
     public Passport(String name, int age) {
@@ -31,7 +53,7 @@ public class Passport {
 
     public Passport(String name, int age, String family, String sex) {
         this.name = name;
-        verifyFamily(family);
+        this.family = verifyFamily(family);
         this.age = age;
         this.sex = sex;
     }
@@ -50,5 +72,6 @@ public class Passport {
             return "Dou";
         }
     }
+
 }
 

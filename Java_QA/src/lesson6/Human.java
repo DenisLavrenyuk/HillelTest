@@ -4,6 +4,7 @@ public class Human {
     String name, family;
     int age;
     String sex;
+
     public Human(String name, int age) {
         this.name = name;
         this.age = age;
@@ -11,7 +12,7 @@ public class Human {
         this.family="Dou";
     }
 
-    public Human(String name, int age, String family, String sex) {
+    public Human(String name,int age, String family, String sex) {
         this.name = name;
         this.family = family;
         this.age = age;

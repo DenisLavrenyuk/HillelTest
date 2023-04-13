@@ -17,4 +17,6 @@ public class lesson64 {
         System.out.println(tiger.predator);
 
     }
+
+
 }

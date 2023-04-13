@@ -5,7 +5,7 @@ public class lesson63 {
         String str="denis";
 //        System.out.println(str);
     }
-     static void test(String str){
-         System.out.println(str.toUpperCase());
+    static void test(String str) {
+        System.out.println(str.toUpperCase());
     }
 }
