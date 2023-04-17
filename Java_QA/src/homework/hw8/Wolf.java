@@ -7,7 +7,7 @@ public class Wolf extends Animal implements WildAnimal{
     }
     @Override
     void greets() {
-        System.out.println("Wolf "+getName()+"  says: Hawoo");
+        System.out.println("Wolf "+getName()+" says: Hawoo");
     }
 
     @Override

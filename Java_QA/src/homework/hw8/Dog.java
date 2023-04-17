@@ -1,7 +1,6 @@
 package homework.hw8;
 
 public class Dog extends Animal implements Pet {
-    int t;
 
     public Dog(String name) {
         super(name);
@@ -9,21 +8,23 @@ public class Dog extends Animal implements Pet {
 
     @Override
     void greets() {
-        System.out.println("Dog says "+getName()+" Woof");
+        System.out.println("Dog "+getName()+" says: Woof");
+    }
+    void greets(Dog dog) {
+        System.out.println("Woooof");
     }
 
     @Override
     public void feed() {
-        System.out.println("Feeding dog "+getName());
+        System.out.println("Feeding dog " + getName());
     }
-
-    @Override
-    public void play() {
-        System.out.println("Playing dog "+getName());
-    }
-
     @Override
     public void walk() {
         System.out.println("Walking dog "+getName());
     }
+    @Override
+    public void play() {
+        System.out.println("Playing with dog " + getName());
+    }
+
 }

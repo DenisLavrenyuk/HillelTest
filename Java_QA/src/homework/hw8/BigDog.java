@@ -9,4 +9,10 @@ public class BigDog extends Dog{
     void greets() {
         System.out.println("Woow");
     }
+    void greets(Dog dog) {
+        System.out.println("Woooow");
+    }
+    void greets(BigDog dog) {
+        System.out.println("Woooooooow");
+    }
 }
