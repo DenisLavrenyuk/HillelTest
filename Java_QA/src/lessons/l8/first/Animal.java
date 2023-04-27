@@ -1,4 +1,4 @@
-package lessons.l81;
+package lessons.l8.first;
 
 public abstract class Animal {
     public String getName() {

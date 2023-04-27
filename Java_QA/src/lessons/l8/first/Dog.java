@@ -1,4 +1,4 @@
-package lessons.l81;
+package lessons.l8.first;
 
 import java.util.Objects;
 

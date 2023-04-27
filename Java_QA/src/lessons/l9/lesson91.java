@@ -1,7 +1,7 @@
 package lessons.l9;
 
-import lessons.l81.Cat;
-import lessons.l81.Dog;
+import lessons.l8.first.Cat;
+import lessons.l8.first.Dog;
 
 public class lesson91 {
     public static void main(String[] args) {

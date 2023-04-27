@@ -1,6 +1,6 @@
-package lessons.l81;
+package lessons.l8.first;
 
-public class Cat extends Animal implements Pet{
+public class Cat extends Animal implements Pet {
 
     public Cat(String name) {
         super(name);
