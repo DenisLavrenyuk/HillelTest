@@ -4,31 +4,38 @@ import java.util.Arrays;
 
 public class hw7 {
     public static void main(String[] args) {
-        int[] massive = new int[]{1, 2, 3, 4, 5};
+        int[] massive = {1, 2, 3, 4, 5};
         System.out.println("Initial Array: " + Arrays.toString(massive));
-
         int number = 100, position = 2;
         System.out.println("Number: "+number+" Position: "+position+"\n");
 
-      addToArray(new int[]{1, 2, 3, 4, 5}, number);
-      addToArray(new int[]{1, 2, 3, 4, 5}, number, position);
+        int[] massive1=addToArray(massive, number);
+        System.out.println("Default Array: " + Arrays.toString(massive1));
+        int[] massive2=addToArray(massive, number, position);
+        System.out.println("Positioned Array: " + Arrays.toString(massive2));
     }
-    public static void addToArray(int[]massive,int number) {
-            for (int t = massive.length - 1; t > 0; t--) {
-                massive[t] = massive[t - 1];
-            }
-            massive[0] = number;
-            System.out.println("Default Array: " + Arrays.toString(massive));
+    public static int[] addToArray(int[]massive,int number) {
+        int[] newMassive=new int[massive.length+1];
+        newMassive[0] = number;
+        for (int t = 1; t <= massive.length; t++) {
+            newMassive[t] = massive[t - 1];
         }
-    public static void addToArray(int[]massive,int number, int position){
+            return newMassive;
+        }
+    public static int[] addToArray(int[]massive,int number, int position){
+        int[] newMassive=new int[massive.length+1];
         if (position>=0 && position<massive.length) {
-            for (int t = massive.length - 1; t > position; t--) {
-                massive[t] = massive[t - 1];
+            for (int t = 0; t < position; t++) {
+                newMassive[t] = massive[t];
             }
-            massive[position] = number;
-            System.out.println("Positioned Array: " + Arrays.toString(massive));
+            newMassive[position] = number;
+            for (int t = position + 1; t <= massive.length; t++) {
+                newMassive[t] = massive[t - 1];
+            }
+            return newMassive;
         }
         else System.out.println("Error: position is out of array");
+        return null;
     }
 }
 
