@@ -1,7 +1,5 @@
 package homework.hw11;
 
-import lessons.l11.User;
-
 import java.util.*;
 
 public class hm11 {
