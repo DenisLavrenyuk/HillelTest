@@ -1,6 +1,6 @@
 package lessons.l12;
 
-import org.example.lesson12.configuration.BaseClass;
+import lessons.l12.configuration.BaseClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
